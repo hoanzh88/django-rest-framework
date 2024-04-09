@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a720aca1-d710-4c24-ac56-223bc3265440",
+		"name": "django-rest-framework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30107982"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/portal/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-GI-Authorization",
+						"value": "c7ab02cd28aa60c142fedb489f9fe3ee716c6993eb9330de626f12defb3bc6f5",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/HoanChuong/Desktop/10.000_dong_pass.xlsx"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/portal/api"
+			},
+			"response": []
+		}
+	]
+}

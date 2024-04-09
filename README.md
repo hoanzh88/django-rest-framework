@@ -36,7 +36,7 @@
     ```pip install djangorestframework```
 
 ## Mã hóa Ms office file
-    ```django-admin startapp msoffcrypto```
+    ```pip install msoffcrypto-tool```
 
 ## Install Mysql
     ```pip install mysqlclient```
@@ -177,3 +177,5 @@ check postman:
     http://127.0.0.1:8000/portal/api
     X-GI-Authorization: c7ab02cd28aa60c142fedb489f9fe3ee716c6993eb9330de626f12defb3bc6f5
     ```
+
+## Read file excel with password
